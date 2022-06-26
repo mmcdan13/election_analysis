@@ -57,7 +57,7 @@ The analysis of the election show that:
 
 This script can be adapted to obtain the results for any future election including national and state elections (not just an audit of one of the precincts). For state elections you would have to modify the script in two ways:
 
-1. Create an empty dictionary to hold states (keys) and states' number of votes (values) as well as an empty list to hold the States. Then create an if statement in a for loop to obtain the list of states who participated as well as initialize the number of votes per state to zero. Below is an example of the if statement used to obtain the list of counties. The if statement for states would mimic this logic but would point to the row in the new dataset that is aligned to states. 
+1. Create an empty dictionary to hold states (keys) and states' number of votes (values) as well as an empty list to hold the States. Then create an if statement in a for loop to obtain the list of states who participated as well as initialize the number of votes per state to zero. Below is an example of the if statement used to obtain the list of counties. The if statement for states would mimic this logic but would point to the row in the new dataset that is aligned to states. Outside of the if statement, you would add a vote to that state's vote count.
 
 ![](/Resources/ReadMe_County_IfStatement.png)
 
